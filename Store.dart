@@ -34,3 +34,8 @@ void main(){
   print("Discounted Price: \$${Gold.discountedPrice}");
   print("Is Low Stock?: ${Gold.isLowStock}");
 }
+
+Product.onSale(this.name, this.basePrice, this.stockQuantity, this.discount);
+  
+
+  

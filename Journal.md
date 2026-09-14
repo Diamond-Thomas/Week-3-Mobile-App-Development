@@ -1,3 +1,5 @@
 ### Why is it better to use a “getter” for discountedPrice instead of simply creating a second variable (property) like final double discountedPrice?
 If I were to set the discountedPrice as a variable it would have a fixed rate. Setting it as a getter allows for the value to be updated if needed later.
 
+### Problems With Phase 2
+I was trying to make a named constuctor and both watched the videos and tried looking up alternate videos because I know sometimes the videos are out of date and updates may change what is allowed but I still can't figure out what i'm going wrong. My named constuctor is Product.onSale(this.name, this.basePrice, this.stockQuantity, this.discount); and this looks similar to the example that you showed on the video but it keeps producting errors and I tried putting in a required to see if the values being empty may be the problem but it isn't working. The errors just recomend removing the "this" part of the statment and I tried that just to test it out and it still didn't work so i'm not entirely sure what i'm doing wrong.
